@@ -13,9 +13,20 @@ This is the processing time recorded for the latest user instructions; exact mes
 ## Files and references
 
 - [LaTeX resume](GenAI/Aditya_Arnav_Capgemini.tex)
+- [Compiled PDF resume](GenAI/Aditya_Arnav_Capgemini.pdf)
 - [Compile entry point](GenAI/main.tex)
 - [Job description status](GenAI/job-description.md)
 - [Transcription notes](GenAI/tailoring-notes.md)
 - [Links](links.md)
 - [Important notes](notes.md)
 - [Updates, newest first](updates.md)
+
+## Build
+
+From the `GenAI` folder, run:
+
+```sh
+xelatex -interaction=nonstopmode -halt-on-error -no-shell-escape Aditya_Arnav_Capgemini.tex
+```
+
+The named `.tex` file is self-contained. `main.tex` is an alternative entry point for project editors. Calibri matches the supplied resume; font fallbacks are provided for systems without Calibri. Fonts are not distributed here.
