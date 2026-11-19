@@ -1,0 +1,83 @@
+% CBA graduate technology variant. Factual basis: supplied master resume.
+% No specific campus role title or job description was supplied.
+% Compile with XeLaTeX or LuaLaTeX. Calibri matches the source PDF;
+% Carlito or TeX Gyre Heros is used only if Calibri is unavailable.
+\documentclass[10pt]{article}
+\usepackage[paperwidth=595.44bp,paperheight=841.68bp,left=39.6bp,right=39.6bp,top=33bp,bottom=32bp]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\IfFontExistsTF{Carlito}{\setmainfont{Carlito}}{\setmainfont{TeX Gyre Heros}}}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Aditya Arnav Resume},pdfauthor={Aditya Arnav},pdfsubject={CBA campus graduate technology application}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedright
+\newcommand{\resumesection}[1]{\par\vspace{5.4bp}{\fontsize{10.56bp}{12.5bp}\selectfont\bfseries #1\par}\vspace{1bp}\hrule height .72bp\vspace{3.2bp}}
+\newcommand{\entry}[2]{\par #1\hfill #2\par}
+\newcommand{\nextentry}[2]{\par\vspace{1.5bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\begin{document}
+\fontsize{9.48bp}{11.6bp}\selectfont
+{\centering
+{\fontsize{18bp}{21bp}\selectfont\bfseries ADITYA ARNAV\par}
+\vspace{1bp}
+{\fontsize{10.56bp}{12.6bp}\selectfont\bfseries Software Engineer | Backend Engineering and AI\par}
+\vspace{.3bp}
+{\fontsize{9bp}{11bp}\selectfont\makebox[\linewidth][c]{Bengaluru | +91-8102729084 | mr.aditya30112003@gmail.com | \href{https://www.linkedin.com/in/aditya-arnav-76a0222a1}{linkedin.com/in/aditya-arnav-76a0222a1} | \href{https://github.com/Hydra-Of-Malice}{github.com/Hydra-Of-Malice}}\par}}
+
+\resumesection{SUMMARY}
+B.Tech student at VIT Vellore (2023 - 2027) and AI Engineer at Zapper Edge, building Python/FastAPI services, cloud-deployed AI systems and workflow automation. Experience includes Go/React applications, SQL databases, microservices and CI/CD. Delivered measurable improvements in system reliability, processing time and retrieval accuracy. Projects span AI-agent safety controls, evaluation pipelines and data-grounded analytics. Co-inventor on two patent filings; collaborates with business and data teams.
+
+\resumesection{EDUCATION}
+\entry{\textbf{Vellore Institute of Technology (VIT), Vellore} | B.Tech, Computer Science and Engineering and Business Systems}{2023 - 2027}
+\textbf{CGPA:} 8.77/10 | Coursework: Machine Learning, Artificial Intelligence, Data Structures and Algorithms, Database Systems\par
+\vspace{.6bp}
+\textbf{Schooling:} Class XII, White Leaf Public School Bhavana (CBSE), 86\% (2022) | Class X, Delhi Public School Patna (CBSE), 95\% (2020)
+
+\resumesection{TECHNICAL SKILLS}
+\textbf{Fundamentals:} Data Structures and Algorithms, Object-Oriented Programming, software engineering, solution architecture\par
+\vspace{.6bp}
+\textbf{Programming and Backend:} Python, SQL, Java, Go, C++, JavaScript, TypeScript, FastAPI, Django, Flask, Node.js, React, REST APIs, microservices\par
+\vspace{.6bp}
+\textbf{Cloud, Data and MLOps:} Azure, AWS, Docker, PostgreSQL, MongoDB, Redis, Git, GitHub Actions, CI/CD, Agile, model deployment, MLOps\par
+\vspace{.6bp}
+\textbf{Generative AI:} Generative AI (GenAI), Agentic AI, LLMs, prompt engineering, RAG, embeddings, vector databases (FAISS), semantic search, AI agents, copilots, workflow automation, evaluation pipelines, responsible AI\par
+\vspace{.6bp}
+\textbf{AI frameworks:} Azure OpenAI, Azure AI Foundry, OpenAI Agents SDK, Model Context Protocol (MCP), LangChain\par
+\vspace{.6bp}
+\textbf{Machine Learning:} Deep Learning, Natural Language Processing (NLP), computer vision, PyTorch, TensorFlow, Scikit-learn, OpenCV
+
+\resumesection{EXPERIENCE}
+\entry{\textbf{Zapper Edge LLC} | Artificial Intelligence Engineer}{Sep 2026 - Present}
+\bulletitem{Architected a production AI meeting-intelligence platform (FastAPI microservices, Faster-Whisper, LLM summarization on Azure OpenAI and Azure AI Foundry), reaching 90\% bot-connection reliability across automated Google Meet and Zoom sessions.}
+\bulletitem{Redesigned the async AI inference pipeline (Redis, PostgreSQL, Docker Compose, Nginx), cutting post-meeting processing overhead by 70\% and scaling to 10+ concurrent sessions with health checks and zero-downtime restarts.}
+\bulletitem{Led development of an enterprise AI document-intelligence platform for a client: OCR, rule-based classification across \textasciitilde1,500 document types and an LLM verification tier, with low-confidence pages sent to human review.}
+\nextentry{\textbf{Zapper Edge LLC} | Software Builder - 1 Intern}{May 2026 - Aug 2026}
+\bulletitem{Built the FastAPI backend, Whisper speech-to-text and React dashboard of the meeting assistant, from prototype to full pipeline.}
+\nextentry{\textbf{BlankSage} | Software Engineer Intern}{May 2026 - Jun 2026}
+\bulletitem{Delivered a settings module and report-export engine in Go and React for 100+ active users, cutting report-processing time by 60\%; improved CI/CD (GitHub Actions) and fixed 15+ critical issues, contributing to 25\% higher customer engagement.}
+\nextentry{\textbf{E Soft Technologies} | Software Development Intern}{Jun 2025 - Jul 2025}
+\bulletitem{Built a Django and SQL hotel workflow automation platform with OpenCV, automating occupancy checks for 3 room categories.}
+
+\resumesection{PROJECTS}
+\entry{\textbf{Kavach: Safety Gateway for AI Agents} | Python, OpenAI Agents SDK, MCP, Azure OpenAI, FastAPI, React}{HackIndia AgentVerse '26}
+\bulletitem{Co-built a gateway that checks every AI agent tool call against policy rules and an LLM reviewer, asks a person to approve risky actions, and keeps a tamper-evident audit log; a React dashboard monitors runs and approvals.}
+\bulletitem{Wrote an evaluation pipeline of 51 scenarios, including 31 attacks across the OWASP Agentic Top 10. Attack success fell from 100\% to 0\% on a worst-case scripted agent, with 0 false positives and under 1 ms added per tool call.}
+\nextentry{\textbf{ORQUIS: AI Executive Analytics Platform} | Python, Azure OpenAI, RAG, FastAPI, React}{}
+\bulletitem{Building Excel/CSV analytics that grounds LLM output in 20+ computed KPIs per dataset, with prompt-injection screening.}
+\nextentry{\textbf{AI Teacher: Multi-Document RAG Copilot} | Python, LangChain, FAISS, MongoDB, Socket.IO}{}
+\bulletitem{Built a citation-grounded RAG assistant on a FAISS vector database. Indexed 5+ document formats into one embedding store and improved retrieval accuracy by 35\% by tuning chunking and retrieval settings against a held-out query set.}
+\nextentry{\textbf{Defect Forge: GenAI Test Data for Visual Inspection} | Python, FastAPI, React}{Meta Global AI Developer Hackathon}
+\bulletitem{Built solo: generates pixel-labeled synthetic defects from a QA spec for about \$0.02 each and measures the smallest defect an inspector still catches, with 8 quality checks per sample and a call log for model latency and cost.}
+\nextentry{\textbf{Biomedical Waste Detection} | PyTorch, YOLOv8, OpenCV, Flask, React}{}
+\bulletitem{Trained a deep learning detection model on 1,500+ annotated images to 91\% accuracy across 4 categories and deployed it behind an inference API that responds in under 200 ms.}
+
+\resumesection{RESEARCH AND PATENTS}
+\bulletitem{Co-Inventor, Trust-Aware Hierarchical Multi-Pipeline Inference Orchestration System (patent disclosure filed, VIT IPR Cell, Ref. 20264102479, 2026): adaptive trust modeling and consensus-based verification across multiple AI pipelines.}
+\bulletitem{Co-Inventor, Secure Glide (patent application, Ref. 202641068231, 2026): ESP32 IoT vehicle anti-theft system with real-time alerts.}
+
+\resumesection{HACKATHONS AND OPEN SOURCE}
+\bulletitem{Hackathons: HackIndia AgentVerse '26, Meta Global AI Developer Hackathon, hackFront India 2026, Hacktoberfest Hack Day.}
+\bulletitem{Open source: published Defect Forge and a ChatGPT-SketchUp MCP bridge; added macOS support to portfind (merged PR).}
+\end{document}

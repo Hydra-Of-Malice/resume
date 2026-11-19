@@ -8,6 +8,7 @@ Times use Asia/Kolkata (UTC+05:30). Timestamps are recorded processing times whe
 
 | Company | Latest user update recorded | Role / resume | Job description |
 | --- | --- | --- | --- |
+| [Commonwealth Bank of Australia (CBA)](applications/CBA/README.md) | 2026-11-20 03:17:26 +05:30 | [Campus graduate technology](applications/CBA/Campus_Graduate_Technology/) | Campus notice supplied; no specific JD |
 | [Capgemini](applications/Capgemini/README.md) | 2026-11-20 02:51:45 +05:30 | [GenAI](applications/Capgemini/GenAI/) | Awaiting user |
 
 Each company folder contains links, notes, and an update history. Each role folder contains resume sources and exports, tailoring notes, and the job descriptions supplied for that role. Future descriptions are preserved verbatim in timestamped files, with the latest linked from `job-description.md`.
@@ -50,4 +51,4 @@ Use Git history for revisions rather than filenames such as `final_v2`. Keep the
 
 ## Current baseline
 
-`master/Aditya_Arnav_Master.pdf` is an unchanged copy of the Capgemini PDF supplied by Aditya. It is the initial factual baseline, not a newly generalized resume. The Capgemini LaTeX version preserves its content without adding claims. No job description or portfolio website has been supplied yet.
+`master/Aditya_Arnav_Master.pdf` is an unchanged copy of the Capgemini PDF supplied by Aditya. It is the initial factual baseline, not a newly generalized resume. The Capgemini LaTeX version preserves its content without adding claims. The CBA variant adapts the summary, skills order and project order for a broad graduate technology application using the same factual baseline and documented official company research. A CBA campus notice has been supplied; no specific role JD or portfolio website has been provided.
