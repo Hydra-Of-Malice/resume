@@ -13,3 +13,8 @@
 - Push completed updates to the configured GitHub remote when access is available. Do not create a separate repository for each company.
 - Keep the repository private by default. Do not commit credentials, tokens, or temporary render files.
 - If remote access is unavailable, complete and commit the local work and clearly report the remaining synchronization step.
+- Keep every company separate, with role folders below it. Maintain company-level links, important notes, and an update history.
+- Preserve each job description the user supplies verbatim in a timestamped file under the role's `job-descriptions/` folder. Keep `job-description.md` pointing to the latest supplied description. Do not infer a description from a resume or invent one when none was supplied.
+- Record user-update timestamps in ISO 8601 with offset +05:30 (Asia/Kolkata). If an exact message timestamp is unavailable, label the timestamp as the time the update was recorded rather than claiming an exact receipt time.
+- Keep the company index in the root README sorted by latest user update, newest first. Move a company to the top whenever the user supplies a new job description, link, resume, or other application update for it. Also order role indexes and update histories newest first. Compilation, commits, or unrelated maintenance must not change a company's recency.
+- Preserve supplied facts exactly for transcription requests. For future tailoring, the user permits relevant factual information from their supplied GitHub profile and portfolio; record the supporting URLs and access dates. Never invent claims or metrics, and do not add new content during the current Capgemini transcription.

@@ -17,4 +17,14 @@ tmp/
 .tmp/
 .render/
 
+# LaTeX intermediates (keep .tex sources and final PDFs)
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+build/
+
 # Track final PDFs, editable documents, and resume sources.

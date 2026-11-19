@@ -2,6 +2,16 @@
 
 One repository for the master resume and all company-specific, job-tailored versions.
 
+## Companies — latest user update first
+
+Times use Asia/Kolkata (UTC+05:30). Timestamps are recorded processing times when exact message receipt times are unavailable. File edits and commits do not change this order.
+
+| Company | Latest user update recorded | Role / resume | Job description |
+| --- | --- | --- | --- |
+| [Capgemini](applications/Capgemini/README.md) | 2026-11-20 02:51:45 +05:30 | [GenAI](applications/Capgemini/GenAI/) | Awaiting user |
+
+Each company folder contains links, notes, and an update history. Each role folder contains resume sources and exports, tailoring notes, and the job descriptions supplied for that role. Future descriptions are preserved verbatim in timestamped files, with the latest linked from `job-description.md`.
+
 ## Naming convention
 
 Use `Aditya_Arnav_<Company_Name>` for each tailored resume, with the appropriate extension:
@@ -38,6 +48,6 @@ Keep the editable source and final export together in each role folder. The `mas
 
 Use Git history for revisions rather than filenames such as `final_v2`. Keep the GitHub repository private by default because resumes may contain personal contact information.
 
-## Initial status
+## Current baseline
 
-The repository structure is ready. A master resume and the first job profile are needed before a tailored resume can be created.
+`master/Aditya_Arnav_Master.pdf` is an unchanged copy of the Capgemini PDF supplied by Aditya. It is the initial factual baseline, not a newly generalized resume. The Capgemini LaTeX version preserves its content without adding claims. No job description or portfolio website has been supplied yet.
