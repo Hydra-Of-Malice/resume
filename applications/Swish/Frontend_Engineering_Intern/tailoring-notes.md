@@ -19,6 +19,8 @@ The supplied image is the authority for the job requirements. Official company c
 
 ## Verification and delivery
 
-The final submission PDF is built from the `.tex` content with `build_resume.py` and bundled Python/ReportLab. It uses one column, embedded Calibri fonts, selectable text and explicit section headings. The final page is rendered and visually inspected; extraction checks cover page count, key facts, dates, contact details and link annotations. A plain-text export is saved alongside the source. Intermediates remain in ignored `build/`.
+The corrected submission PDF is compiled directly from the `.tex` layout by XeLaTeX, invoked through `build_resume.py`. The initial ReportLab conversion omitted the section rules and put dates inline; this was corrected after the user's formatting feedback. Body text is 10.25 bp with 12.4 bp leading, section headings are 11 bp, and five horizontal dividers separate the main sections. Dates and project labels align to the right, bullets use hanging indentation, and entries have increased spacing. Resume wording and factual claims are unchanged in this formatting revision.
+
+The one-page PDF has embedded Calibri fonts and selectable text. The final rendered page is visually inspected; extraction checks cover page count, key facts, dates, contact details and link annotations. The LaTeX build has no horizontal or vertical overflow warnings. A plain-text export is saved alongside the source. Intermediates remain in ignored `build/`.
 
 No ATS score or outcome is promised. The main uncovered requirement is evidence of React Native/native mobile development. The user will upload the PDF; no message, submission or GitHub synchronization was performed.

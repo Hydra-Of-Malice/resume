@@ -1,5 +1,5 @@
 % Swish frontend internship variant. See tailoring-notes.md for factual basis.
-% XeLaTeX/LuaLaTeX source; build_resume.py generates the verified submission PDF.
+% XeLaTeX source; build_resume.py compiles and preserves this layout.
 \documentclass[10pt]{article}
 \usepackage[a4paper,left=39.6bp,right=39.6bp,top=30bp,bottom=30bp]{geometry}
 \usepackage{fontspec}
@@ -11,12 +11,12 @@
 \setlength{\parskip}{0pt}
 \setlength{\emergencystretch}{1em}
 \raggedright
-\newcommand{\resumesection}[1]{\par\vspace{6bp}{\fontsize{10.56bp}{12.5bp}\selectfont\bfseries #1\par}\vspace{1bp}\hrule height .6bp\vspace{3bp}}
+\newcommand{\resumesection}[1]{\par\vspace{8bp}{\fontsize{11bp}{13bp}\selectfont\bfseries #1\par}\vspace{3bp}\hrule height .65bp\vspace{4bp}}
 \newcommand{\entry}[2]{\par #1\hfill #2\par}
-\newcommand{\nextentry}[2]{\par\vspace{2bp}\entry{#1}{#2}}
-\newcommand{\bulletitem}[1]{\par\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\newcommand{\nextentry}[2]{\par\vspace{5bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\vspace{.6bp}\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
 \begin{document}
-\fontsize{10bp}{12bp}\selectfont
+\fontsize{10.25bp}{12.4bp}\selectfont
 {\centering
 {\fontsize{19bp}{22bp}\selectfont\bfseries ADITYA ARNAV\par}
 \vspace{1bp}

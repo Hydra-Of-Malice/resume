@@ -8,7 +8,7 @@ Times use Asia/Kolkata (UTC+05:30). Timestamps are recorded processing times whe
 
 | Company | Latest user update recorded | Role / resume | Job description |
 | --- | --- | --- | --- |
-| [Swish](applications/Swish/README.md) | 2026-11-22 19:31:19 +05:30 | [Frontend and application workflow internship](applications/Swish/Frontend_Engineering_Intern/) | Supplied in-office internship post; AI Engineer positioning with React/workflow delivery |
+| [Swish](applications/Swish/README.md) | 2026-11-22 20:16:36 +05:30 | [Frontend and application workflow internship](applications/Swish/Frontend_Engineering_Intern/) | Supplied internship post; formatting revised with section dividers and aligned dates |
 | [Rezerv](applications/Rezerv/README.md) | 2026-11-22 19:09:31 +05:30 | [AI Engineer](applications/Rezerv/AI_Engineer/) | Supplied recruiter screenshot and researched agentic AI role; Myanmar eligibility unconfirmed |
 | [Cisco](applications/Cisco/README.md) | 2026-11-22 15:19:39 +05:30 | [Software Engineer 2025113](applications/Cisco/Software_Engineer_2025113/) | Official frontend / UX role; supplied application link preserved |
 | [Commonwealth Bank of Australia (CBA)](applications/CBA/README.md) | 2026-11-20 03:17:26 +05:30 | [Campus graduate technology](applications/CBA/Campus_Graduate_Technology/) | Campus notice supplied; no specific JD |
