@@ -1,0 +1,63 @@
+% Rox Backend Platform Engineer BLR variant. Facts and limits: tailoring-notes.md.
+% Build with XeLaTeX through build_resume.py to preserve the verified layout.
+\documentclass[10pt]{article}
+\usepackage[a4paper,left=39.6bp,right=39.6bp,top=30bp,bottom=30bp]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\IfFontExistsTF{Carlito}{\setmainfont{Carlito}}{\setmainfont{TeX Gyre Heros}}}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Aditya Arnav Resume},pdfauthor={Aditya Arnav},pdfsubject={Rox Backend Platform Engineer BLR - Production LLMs and Agent Workflows}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedright
+\newcommand{\resumesection}[1]{\par\vspace{8bp}{\fontsize{11bp}{13bp}\selectfont\bfseries #1\par}\vspace{3bp}\hrule height .65bp\vspace{4bp}}
+\newcommand{\entry}[2]{\par #1\hfill #2\par}
+\newcommand{\nextentry}[2]{\par\vspace{5bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\vspace{.6bp}\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\begin{document}
+\fontsize{10.25bp}{12.4bp}\selectfont
+{\centering
+{\fontsize{19bp}{22bp}\selectfont\bfseries ADITYA ARNAV\par}
+\vspace{1bp}
+{\fontsize{10.8bp}{13bp}\selectfont\bfseries AI Engineer | Python Platforms and Agentic Workflows\par}
+\vspace{2bp}
+{\fontsize{9bp}{11bp}\selectfont Bengaluru, India | +91-8102729084 | \href{mailto:mr.aditya30112003@gmail.com}{mr.aditya30112003@gmail.com}\par}
+{\fontsize{9bp}{11bp}\selectfont \href{https://www.adityaarnav.site/}{Portfolio: adityaarnav.site} | \href{https://www.linkedin.com/in/aditya-arnav-76a0222a1}{linkedin.com/in/aditya-arnav-76a0222a1} | \href{https://github.com/Hydra-Of-Malice}{GitHub: Hydra-Of-Malice}\par}}
+
+\resumesection{SUMMARY}
+AI Engineer at Zapper Edge building production LLM applications, asynchronous inference services and document-processing workflows. Combines Python/FastAPI backend delivery with agent tool-call controls, citation-grounded retrieval and evaluation pipelines. Delivered React/Go features for 100+ users at BlankSage. B.Tech student at VIT Vellore, graduating in 2027, with experience taking AI products from prototype to production services.
+
+\resumesection{TECHNICAL SKILLS}
+\textbf{Backend and Data:} Python, SQL, FastAPI, Flask, Go, REST APIs, microservices, PostgreSQL, Redis, MongoDB\par
+\textbf{Applied AI:} Azure OpenAI, Azure AI Foundry, LLMs, agentic workflows, OpenAI Agents SDK, MCP, RAG, LangChain, FAISS, prompt engineering, evaluation pipelines, human-in-the-loop review\par
+\textbf{Delivery:} AWS, Azure, Docker, GitHub Actions, CI/CD, Git, React, TypeScript, asynchronous pipelines
+
+\resumesection{EXPERIENCE}
+\entry{\textbf{Zapper Edge LLC} | Artificial Intelligence Engineer}{Sep 2026 - Present}
+\bulletitem{Architected a production meeting-intelligence platform using FastAPI microservices, Faster-Whisper and Azure OpenAI/Azure AI Foundry summarization; reached 90\% bot-connection reliability across automated Google Meet and Zoom sessions.}
+\bulletitem{Redesigned the asynchronous inference pipeline with Redis, PostgreSQL, Docker Compose and Nginx; cut post-meeting processing overhead by 70\% and supported 10+ concurrent sessions with health checks and zero-downtime restarts.}
+\bulletitem{Led a client document-intelligence platform combining OCR, rule-based classification across \textasciitilde1,500 document types and LLM verification, routing low-confidence pages to human review.}
+\nextentry{\textbf{Zapper Edge LLC} | Software Builder - 1 Intern}{May 2026 - Aug 2026}
+\bulletitem{Built the meeting assistant's FastAPI backend, Whisper speech-to-text integration and React dashboard, taking it from prototype to a complete processing pipeline.}
+\nextentry{\textbf{BlankSage} | Software Engineer Intern}{May 2026 - Jun 2026}
+\bulletitem{Delivered a Go/React user-settings module and report-export engine for 100+ active users, reducing report-processing time by 60\%; resolved 15+ critical issues and improved GitHub Actions CI/CD.}
+\nextentry{\textbf{E Soft Technologies} | Software Development Intern}{Jun 2025 - Jul 2025}
+\bulletitem{Built Django and SQL hotel workflow automation with OpenCV, automating occupancy checks for 3 room categories.}
+
+\resumesection{SELECTED AI SYSTEMS}
+\entry{\textbf{Kavach Safety Gateway for AI Agents} | Python, FastAPI, MCP, React}{HackIndia AgentVerse '26}
+\bulletitem{Co-built policy checks, an LLM reviewer, human approval for risky tool calls and a tamper-evident audit log; a React dashboard monitors agent runs and approvals.}
+\bulletitem{Wrote 51 evaluation scenarios, including 31 attacks across the OWASP Agentic Top 10. On a worst-case scripted agent, attack success fell from 100\% to 0\%, with no false positives and under 1 ms added per tool call.}
+\nextentry{\textbf{AI Teacher Multi-Document RAG Copilot} | Python, LangChain, FAISS}{}
+\bulletitem{Built citation-grounded Q\&A with real-time Socket.IO chat; indexed 5+ document formats and improved retrieval accuracy by 35\% through chunking and retrieval tuning against a held-out query set.}
+\nextentry{\textbf{ORQUIS AI Executive Analytics} | Azure OpenAI, FastAPI, React}{In progress}
+\bulletitem{Building Excel/CSV analytics that grounds LLM output in 20+ computed KPIs per dataset, with prompt-injection screening.}
+\nextentry{\href{https://github.com/Hydra-Of-Malice/defect_forge}{\textbf{Defect Forge}} | Python, FastAPI, React}{Meta Global AI Developer Hackathon}
+\bulletitem{Built solo: generates pixel-labeled synthetic defects for about \$0.02 each, with 8 quality checks per sample and a call log recording model latency and cost.}
+
+\resumesection{EDUCATION}
+\entry{\textbf{Vellore Institute of Technology, Vellore}}{2023 - 2027}
+B.Tech, Computer Science and Engineering and Business Systems | \textbf{CGPA: 8.77/10}\par
+Coursework: Artificial Intelligence, Machine Learning, Data Structures and Algorithms, Database Systems
+\end{document}

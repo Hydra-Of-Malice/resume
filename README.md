@@ -8,6 +8,7 @@ Times use Asia/Kolkata (UTC+05:30). Timestamps are recorded processing times whe
 
 | Company | Latest user update recorded | Role / resume | Job description |
 | --- | --- | --- | --- |
+| [Rox](applications/Rox/README.md) | 2026-11-22 20:40:24 +05:30 | [Backend Platform Engineer BLR](applications/Rox/Backend_Platform_Engineer_BLR/) | Broad hiring screenshot; researched Bengaluru role, application plan and outreach drafts |
 | [Swish](applications/Swish/README.md) | 2026-11-22 20:16:36 +05:30 | [Frontend and application workflow internship](applications/Swish/Frontend_Engineering_Intern/) | Supplied internship post; formatting revised with section dividers and aligned dates |
 | [Rezerv](applications/Rezerv/README.md) | 2026-11-22 19:09:31 +05:30 | [AI Engineer](applications/Rezerv/AI_Engineer/) | Supplied recruiter screenshot and researched agentic AI role; Myanmar eligibility unconfirmed |
 | [Cisco](applications/Cisco/README.md) | 2026-11-22 15:19:39 +05:30 | [Software Engineer 2025113](applications/Cisco/Software_Engineer_2025113/) | Official frontend / UX role; supplied application link preserved |
@@ -61,3 +62,5 @@ The Cisco variant targets Software Engineer requisition 2025113 using the live o
 The Rezerv AI Engineer variant emphasizes production LLM delivery, MCP tools, agent safeguards, evaluation and grounded analytics. It includes the verified portfolio, LinkedIn and GitHub links, plus an email draft and sourced application guide. Myanmar location eligibility, the two-year requirement and production Node.js depth remain explicit gaps. The master remains unchanged.
 
 The Swish internship variant positions Aditya as an AI Engineer with React application and workflow delivery at Zapper Edge, supported by React/Go feature delivery at BlankSage. It targets the supplied frontend/app workflow internship without adding unverified React Native or native mobile experience. The user will upload it; files remain local.
+
+The Rox variant targets the researched Bengaluru Backend Platform Engineer opening, emphasizing production LLM/inference services, data processing, agent controls and retrieval evaluation. It includes company research, official application links and unsent outreach drafts, while preserving 2027 graduation and unverified availability. The corrected LaTeX layout is compiled directly; files remain local.

@@ -1,0 +1,35 @@
+LINKEDIN MESSAGE TO SANCHIT GUPTA
+
+Hi Sanchit, I saw your Bengaluru engineering hiring post. I'm an AI Engineer at Zapper Edge, building meeting-intelligence and document-processing systems. I redesigned a production inference pipeline to cut post-meeting processing overhead by 70% and support 10+ concurrent sessions. Rox's use of conversation data as agent context caught my attention, and I've also co-built agent safeguards and evaluation tooling. Could my background fit the Bengaluru platform/agents team? I'm completing my B.Tech in 2027 and would appreciate guidance on the right route.
+
+Portfolio: https://www.adityaarnav.site/
+Resume: attach Aditya_Arnav_Rox.pdf if the conversation permits attachments.
+
+--- EMAIL DRAFT ---
+
+To: hiring@rox.com
+Subject: Bengaluru backend / AI engineering - Aditya Arnav
+Attachment: Aditya_Arnav_Rox.pdf
+
+Hi Rox team,
+
+I'm interested in the Backend Platform Engineer opening in Bengaluru. I'm an AI Engineer at Zapper Edge, where I build production LLM applications and asynchronous processing workflows.
+
+The connection that stood out is Rox's use of conversation data to inform agent work. I architected a meeting-intelligence platform using FastAPI, Faster-Whisper and Azure OpenAI, reaching 90% bot-connection reliability. I also redesigned its inference pipeline to reduce post-meeting processing overhead by 70% and support 10+ concurrent sessions. Separately, I led a client document-intelligence workflow with OCR, LLM verification and human review for low-confidence pages.
+
+My projects include Kavach, a co-built agent gateway with policy checks and human approval for risky tool calls, for which I wrote 51 evaluation scenarios. I have also built citation-grounded RAG and tracked model latency and cost in a published full-stack application.
+
+I'm based in Bengaluru and completing my B.Tech at VIT Vellore in 2027. Are you considering candidates with this graduation timeline for the Bengaluru team, or an internship-to-full-time route? I've attached a resume focused on my backend and applied-AI work.
+
+Portfolio: https://www.adityaarnav.site/
+GitHub: https://github.com/Hydra-Of-Malice
+LinkedIn: https://www.linkedin.com/in/aditya-arnav-76a0222a1
+
+Best,
+Aditya Arnav
++91-8102729084
+mr.aditya30112003@gmail.com
+
+--- USAGE NOTES ---
+
+These are unsent drafts. The email address was published in an earlier Rox hiring post visible in Sanchit's public LinkedIn search result; current mailbox operation was not tested. The official Ashby application is the primary submission route. Do not say you have applied until you have actually submitted. Supply your real availability in the application; none has been invented here. If full-time work is not feasible alongside your commitments, use the eligibility question before making a full-time commitment.
