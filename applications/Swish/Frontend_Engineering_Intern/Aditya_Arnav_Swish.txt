@@ -1,53 +1,53 @@
 ADITYA ARNAV
- AI Engineer | React Applications and Workflow Automation
- Bengaluru, India | +91-8102729084 | mr.aditya30112003@gmail.com
- Portfolio: adityaarnav.site | linkedin.com/in/aditya-arnav-76a0222a1 | GitHub: Hydra-Of-Malice
+AI Engineer | React Applications and Workflow Automation
+Bengaluru, India | +91‐8102729084 | mr .aditya30112003@gmail.com
+Portfolio: adityaarnav.site | linkedin.com/in/aditya‐arnav‐76a0222a1 | GitHub: Hydra‐Of‐Malice
 SUMMARY
-AI Engineer at Zapper Edge with hands-on experience building React applications, API services and automated workflows.
-Built a meeting assistant's React dashboard and FastAPI processing pipeline, then engineered its production inference
+AI Engineer at Zapper Edge with hands‐on experience building React applications, API services and automated workflows.
+Built a meeting assistant’s React dashboard and FastAPI processing pipeline, then engineered its production inference
 services. Delivered React/Go features for 100+ users at BlankSage. B.Tech student at VIT Vellore, graduating in 2027, with
 experience taking AI applications from prototype to working product.
 TECHNICAL SKILLS
-Frontend and Applications: React, JavaScript, TypeScript, REST API integration, full-stack application development
+Frontend and Applications: React, JavaScript, TypeScript, REST API integration, full‐stack application development
 Backend and Workflows: Python, FastAPI, Go, Node.js, Django, Flask, SQL, PostgreSQL, Redis, MongoDB, microservices,
 asynchronous pipelines, workflow automation
-AI and Product Delivery: Azure OpenAI, Azure AI Foundry, LLMs, RAG, LangChain, OpenAI Agents SDK, MCP, Git, Docker,
+AI and Product Delivery: Azure OpenAI, Azure AI Foundry, LLMs, RAG, LangChain, OpenAI Agents SDK, MCP , Git, Docker,
 GitHub Actions, CI/CD, Azure, AWS, Agile
 EXPERIENCE
-Zapper Edge LLC | Artificial Intelligence Engineer | Sep 2026 - Present
- - Architected a production meeting-intelligence application connecting automated Google Meet and Zoom sessions to
- transcription and LLM summarization; achieved 90% bot-connection reliability using FastAPI, Faster-Whisper and Azure
+Zapper Edge LLC | Artificial Intelligence Engineer Sep 2026 ‐ Present
+• Architected a production meeting‐intelligence application connecting automated Google Meet and Zoom sessions to
+transcription and LLM summarization; achieved 90% bot‐connection reliability using FastAPI, Faster‐Whisper and Azure
 OpenAI/Azure AI Foundry.
-- Redesigned its asynchronous processing workflow with Redis, PostgreSQL, Docker Compose and Nginx; reduced
- post-meeting processing overhead by 70% and supported 10+ concurrent sessions with health checks and
-zero-downtime restarts.
-- Led a client document-intelligence application combining OCR, classification across ~1,500 document types and LLM
- verification, with low-confidence pages routed to human review.
-Zapper Edge LLC | Software Builder - 1 Intern | May 2026 - Aug 2026
- - Built the meeting assistant's React dashboard, FastAPI backend and Whisper speech-to-text integration, taking the
- application from prototype to a complete processing pipeline.
-BlankSage | Software Engineer Intern | May 2026 - Jun 2026
- - Shipped a user-settings module and report-export engine in React and Go for 100+ active users, reducing report-processing
- time by 60%.
-- Resolved 15+ critical issues and improved GitHub Actions CI/CD to support reliable application delivery.
- E Soft Technologies | Software Development Intern | Jun 2025 - Jul 2025
- - Built a Django and SQL hotel workflow automation platform with OpenCV, automating occupancy checks for 3 room
- categories.
+• Redesigned its asynchronous processing workflow with Redis, PostgreSQL, Docker Compose and Nginx; reduced
+post‐meeting processing overhead by 70% and supported 10+ concurrent sessions with health checks and zero‐downtime
+restarts.
+• Led a client document‐intelligence application combining OCR, classification across ~1,500 document types and LLM
+verification, with low‐confidence pages routed to human review.
+Zapper Edge LLC | Software Builder ‐ 1 Intern May 2026 ‐ Aug 2026
+• Built the meeting assistant’s React dashboard, FastAPI backend and Whisper speech‐to‐text integration, taking the
+application from prototype to a complete processing pipeline.
+BlankSage | Software Engineer Intern May 2026 ‐ Jun 2026
+• Shipped a user‐settings module and report‐export engine in React and Go for 100+ active users, reducing
+report‐processing time by 60%.
+• Resolved 15+ critical issues and improved GitHub Actions CI/CD to support reliable application delivery.
+E Soft Technologies | Software Development Intern Jun 2025 ‐ Jul 2025
+• Built a Django and SQL hotel workflow automation platform with OpenCV, automating occupancy checks for 3 room
+categories.
 SELECTED APPLICATIONS AND WORKFLOWS
-Defect Forge | React, FastAPI, Python | Meta Global AI Developer Hackathon
- - Built a full-stack application solo that turns QA specifications into pixel-labeled synthetic defects for about $0.02 each, with
- 8 quality checks per sample and a call log recording model latency and cost.
-Kavach Safety Gateway for AI Agents | React, FastAPI, Python, MCP | HackIndia AgentVerse '26
- - Co-built an agent workflow with policy checks, LLM review, human approval for risky tool calls and a tamper-evident audit
- log, with a React dashboard for monitoring runs and approvals.
-- Wrote an evaluation pipeline covering 51 scenarios, including 31 adversarial cases across the OWASP Agentic Top 10.
- ORQUIS AI Executive Analytics | React, FastAPI, Azure OpenAI | In progress
- - Building an Excel/CSV analytics application that grounds LLM output in 20+ computed KPIs per dataset, with
- prompt-injection screening.
+Defect Forge | React, FastAPI, Python Meta Global AI Developer Hackathon
+• Built a full‐stack application solo that turns QA specifications into pixel‐labeled synthetic defects for about $0.02 each,
+with 8 quality checks per sample and a call log recording model latency and cost.
+Kavach Safety Gateway for AI Agents | React, FastAPI, Python, MCP HackIndia AgentVerse ’26
+• Co‐built an agent workflow with policy checks, LLM review, human approval for risky tool calls and a tamper‐evident audit
+log, with a React dashboard for monitoring runs and approvals.
+• Wrote an evaluation pipeline covering 51 scenarios, including 31 adversarial cases across the OWASP Agentic Top 10.
+ORQUIS AI Executive Analytics | React, FastAPI, Azure OpenAI In progress
+• Building an Excel/CSV analytics application that grounds LLM output in 20+ computed KPIs per dataset, with
+prompt‐injection screening.
 Biomedical Waste Detection | React, Flask, PyTorch, OpenCV
- - Built a full-stack detection application with a model trained on 1,500+ annotated images, achieving 91% accuracy across 4
- categories and serving inference through an API in under 200 ms.
+• Built a full‐stack detection application with a model trained on 1,500+ annotated images, achieving 91% accuracy across 4
+categories and serving inference through an API in under 200 ms.
 EDUCATION
-Vellore Institute of Technology, Vellore | 2023 - 2027
+Vellore Institute of Technology, Vellore 2023 ‐ 2027
 B.Tech, Computer Science and Engineering and Business Systems | CGPA: 8.77/10
 Coursework: Data Structures and Algorithms, Database Systems, Artificial Intelligence, Machine Learning
