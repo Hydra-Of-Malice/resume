@@ -1,0 +1,68 @@
+% Cisco Software Engineer 2025113 variant.
+% Factual basis: master/Aditya_Arnav_Master.pdf and its Capgemini transcription.
+% Compile with XeLaTeX or LuaLaTeX. No shell escape is needed.
+\documentclass[10pt]{article}
+\usepackage[paperwidth=595.44bp,paperheight=841.68bp,left=39.6bp,right=39.6bp,top=32bp,bottom=32bp]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\IfFontExistsTF{Carlito}{\setmainfont{Carlito}}{\setmainfont{TeX Gyre Heros}}}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Aditya Arnav Resume},pdfauthor={Aditya Arnav},pdfsubject={Cisco Software Engineer 2025113}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedright
+\newcommand{\resumesection}[1]{\par\vspace{6bp}{\fontsize{10.56bp}{12.5bp}\selectfont\bfseries #1\par}\vspace{1bp}\hrule height .6bp\vspace{3.2bp}}
+\newcommand{\entry}[2]{\par #1\hfill #2\par}
+\newcommand{\nextentry}[2]{\par\vspace{2bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\begin{document}
+\fontsize{10bp}{12bp}\selectfont
+{\centering
+{\fontsize{19bp}{22bp}\selectfont\bfseries ADITYA ARNAV\par}
+\vspace{1bp}
+{\fontsize{10.8bp}{13bp}\selectfont\bfseries Software Engineer | React, JavaScript and Python\par}
+\vspace{1bp}
+{\fontsize{9bp}{11bp}\selectfont Bengaluru | +91-8102729084 | \href{mailto:mr.aditya30112003@gmail.com}{mr.aditya30112003@gmail.com}\par}
+{\fontsize{9bp}{11bp}\selectfont \href{https://www.linkedin.com/in/aditya-arnav-76a0222a1}{linkedin.com/in/aditya-arnav-76a0222a1} | \href{https://github.com/Hydra-Of-Malice}{github.com/Hydra-Of-Malice}\par}}
+
+\resumesection{SUMMARY}
+B.Tech CSE student at VIT Vellore (expected 2027) and AI Engineer at Zapper Edge, building user-facing React applications and Python/FastAPI services. Internship experience delivering Go/React features, resolving production issues and improving CI/CD. Builds full-stack AI applications with secure agent controls, evaluation pipelines and reliable data processing; collaborates with business and data teams.
+
+\resumesection{EDUCATION}
+\entry{\textbf{Vellore Institute of Technology, Vellore}}{2023 - 2027}
+B.Tech, Computer Science and Engineering and Business Systems | \textbf{CGPA: 8.77/10}\par
+Coursework: Data Structures and Algorithms, Database Systems, Artificial Intelligence, Machine Learning
+
+\resumesection{TECHNICAL SKILLS}
+\textbf{Frontend:} React, JavaScript, TypeScript\par
+\textbf{Backend and Data:} Python, Go, Java, C++, SQL, FastAPI, Django, Flask, Node.js, REST APIs, microservices, PostgreSQL, MongoDB, Redis\par
+\textbf{Engineering:} Git, GitHub Actions, CI/CD, Docker, Azure, AWS, Agile, Data Structures and Algorithms, Object-Oriented Programming\par
+\textbf{Applied AI:} Azure OpenAI, Azure AI Foundry, LLMs, RAG, LangChain, FAISS, OpenAI Agents SDK, MCP, evaluation pipelines, PyTorch, OpenCV
+
+\resumesection{EXPERIENCE}
+\entry{\textbf{Zapper Edge LLC} | Artificial Intelligence Engineer}{Sep 2026 - Present}
+\bulletitem{Architected a production meeting-intelligence platform using FastAPI microservices, Faster-Whisper and Azure OpenAI/Azure AI Foundry summarization, reaching 90\% bot-connection reliability across Google Meet and Zoom sessions.}
+\bulletitem{Redesigned the async inference pipeline with Redis, PostgreSQL, Docker Compose and Nginx; cut post-meeting processing overhead by 70\% and supported 10+ concurrent sessions with health checks and zero-downtime restarts.}
+\bulletitem{Led a client document-intelligence platform combining OCR, rule-based classification across \textasciitilde1,500 document types and LLM verification, routing low-confidence pages to human review.}
+\nextentry{\textbf{Zapper Edge LLC} | Software Builder - 1 Intern}{May 2026 - Aug 2026}
+\bulletitem{Built the meeting assistant's React dashboard, FastAPI backend and Whisper speech-to-text integration, taking the application from prototype to a complete processing pipeline.}
+\nextentry{\textbf{BlankSage} | Software Engineer Intern}{May 2026 - Jun 2026}
+\bulletitem{Delivered a user-settings module and report-export engine in React and Go for 100+ active users, reducing report-processing time by 60\%.}
+\bulletitem{Fixed 15+ critical issues and improved GitHub Actions CI/CD, contributing to a more reliable application delivery process.}
+\nextentry{\textbf{E Soft Technologies} | Software Development Intern}{Jun 2025 - Jul 2025}
+\bulletitem{Built Django and SQL hotel workflow automation with OpenCV, automating occupancy checks for 3 room categories.}
+
+\resumesection{SELECTED PROJECTS}
+\entry{\textbf{Kavach Safety Gateway for AI Agents} | React, FastAPI, Python, MCP}{HackIndia AgentVerse '26}
+\bulletitem{Co-built policy checks, human approval for risky tool calls and a tamper-evident audit log; a React dashboard monitors agent runs and approvals.}
+\bulletitem{Wrote 51 evaluation scenarios, including 31 attacks across the OWASP Agentic Top 10. On a worst-case scripted agent, attack success fell from 100\% to 0\%, with no false positives and under 1 ms added per tool call.}
+\nextentry{\textbf{Defect Forge} | React, FastAPI, Python}{Meta Global AI Developer Hackathon}
+\bulletitem{Built a full-stack synthetic-defect application solo, generating pixel-labeled samples for about \$0.02 each, with 8 quality checks per sample and logs of model latency and cost.}
+\nextentry{\textbf{ORQUIS AI Executive Analytics} | React, FastAPI, Azure OpenAI}{}
+\bulletitem{Building Excel/CSV analytics that grounds LLM output in 20+ computed KPIs per dataset, with prompt-injection screening.}
+
+\resumesection{RESEARCH AND OPEN SOURCE}
+\bulletitem{Co-inventor: Trust-Aware Hierarchical Multi-Pipeline Inference Orchestration System (VIT IPR disclosure filed, Ref. 20264102479, 2026) and Secure Glide (patent application, Ref. 202641068231, 2026).}
+\bulletitem{Published Defect Forge and a ChatGPT-SketchUp MCP bridge; contributed macOS support to portfind through a merged pull request.}
+\end{document}
