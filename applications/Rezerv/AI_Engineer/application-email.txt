@@ -1,0 +1,23 @@
+To: careers@rezerv.co
+Subject: AI Engineer application | Aditya Arnav | Production LLMs and MCP
+Attachment: Aditya_Arnav_Rezerv.pdf
+
+Hi Eaint and Rezerv team,
+
+I'm applying for the AI Engineer role. I'm an AI Engineer at Zapper Edge, where I build production LLM services and asynchronous inference pipelines. Your plans for studio-data-grounded agents and an MCP server connect closely with my work on agent tools, evaluation and reliable AI delivery.
+
+One tool integration I've published is a ChatGPT-SketchUp MCP bridge: it exposes 18 modeling tools so ChatGPT can inspect and edit an open model, with a Windows installer and user documentation. I also co-built Kavach, a hackathon agent gateway that combines policy checks, an LLM reviewer, human approval for risky tool calls and an audit trail. I wrote 51 evaluation scenarios to test its behavior, including adversarial tool-use cases.
+
+At Zapper Edge, I redesigned a production meeting-intelligence pipeline to reduce post-meeting processing overhead by 70% and support 10+ concurrent sessions. That experience would inform how I approach agent reliability and evaluation at Rezerv.
+
+My resume is attached. I'm based in Bengaluru, India, and completing my B.Tech in 2027. I noticed the role specifies remote work from Myanmar; are you also considering India-based applicants?
+
+Portfolio: https://www.adityaarnav.site/
+MCP project: https://github.com/Hydra-Of-Malice/SketchUp-2022-ChatGPT-MCP
+LinkedIn: https://www.linkedin.com/in/aditya-arnav-76a0222a1
+GitHub: https://github.com/Hydra-Of-Malice
+
+Best,
+Aditya Arnav
++91-8102729084
+mr.aditya30112003@gmail.com

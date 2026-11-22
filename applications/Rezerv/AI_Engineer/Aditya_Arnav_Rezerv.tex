@@ -1,0 +1,65 @@
+% Rezerv AI Engineer variant. Factual basis and source links: tailoring-notes.md.
+% Compile with XeLaTeX or LuaLaTeX. No shell escape is required.
+\documentclass[10pt]{article}
+\usepackage[a4paper,left=39.6bp,right=39.6bp,top=30bp,bottom=30bp]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\IfFontExistsTF{Carlito}{\setmainfont{Carlito}}{\setmainfont{TeX Gyre Heros}}}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Aditya Arnav Resume},pdfauthor={Aditya Arnav},pdfsubject={Rezerv AI Engineer - Agentic AI, MCP and Production LLM Systems}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedright
+\newcommand{\resumesection}[1]{\par\vspace{5.5bp}{\fontsize{10.56bp}{12.5bp}\selectfont\bfseries #1\par}\vspace{1bp}\hrule height .6bp\vspace{3bp}}
+\newcommand{\entry}[2]{\par #1\hfill #2\par}
+\newcommand{\nextentry}[2]{\par\vspace{2bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\begin{document}
+\fontsize{10bp}{12bp}\selectfont
+{\centering
+{\fontsize{19bp}{22bp}\selectfont\bfseries ADITYA ARNAV\par}
+\vspace{1bp}
+{\fontsize{10.8bp}{13bp}\selectfont\bfseries AI Engineer | Agentic AI, MCP and Production LLM Systems\par}
+\vspace{2bp}
+{\fontsize{9bp}{11bp}\selectfont Bengaluru, India | +91-8102729084 | \href{mailto:mr.aditya30112003@gmail.com}{mr.aditya30112003@gmail.com}\par}
+{\fontsize{9bp}{11bp}\selectfont \href{https://www.adityaarnav.site/}{Portfolio: adityaarnav.site} | \href{https://www.linkedin.com/in/aditya-arnav-76a0222a1}{linkedin.com/in/aditya-arnav-76a0222a1} | \href{https://github.com/Hydra-Of-Malice}{GitHub: Hydra-Of-Malice}\par}}
+
+\resumesection{SUMMARY}
+AI Engineer at Zapper Edge building production LLM services, asynchronous inference pipelines and full-stack AI products. Co-built agent tool-call safeguards and evaluation pipelines; published a ChatGPT--SketchUp MCP bridge. Hands-on with RAG, grounded analytics, React, TypeScript and Node.js, with project-level model latency and cost tracking. B.Tech CSE and Business Systems student at VIT Vellore, graduating in 2027.
+
+\resumesection{TECHNICAL SKILLS}
+\textbf{Agentic AI and LLMs:} AI agents, copilots, Model Context Protocol (MCP), OpenAI Agents SDK, Azure OpenAI, Azure AI Foundry, LangChain, RAG, embeddings, FAISS, prompt engineering, evaluation pipelines\par
+\textbf{Product Engineering:} TypeScript, Node.js, JavaScript, React, Python, FastAPI, Go, Django, REST APIs, microservices, SQL, PostgreSQL, Redis, MongoDB\par
+\textbf{Reliability and Delivery:} Async pipelines, Docker, Azure, AWS, Git, GitHub Actions, CI/CD, model deployment, human-in-the-loop review, prompt-injection screening, model latency and cost tracking
+
+\resumesection{EXPERIENCE}
+\entry{\textbf{Zapper Edge LLC} | Artificial Intelligence Engineer}{Sep 2026 - Present}
+\bulletitem{Architected a production meeting-intelligence platform using FastAPI microservices, Faster-Whisper and Azure OpenAI/Azure AI Foundry summarization; reached 90\% bot-connection reliability across Google Meet and Zoom sessions.}
+\bulletitem{Redesigned the async inference pipeline with Redis, PostgreSQL, Docker Compose and Nginx; cut post-meeting processing overhead by 70\% and supported 10+ concurrent sessions with health checks and zero-downtime restarts.}
+\bulletitem{Led a client document-intelligence platform combining OCR, rule-based classification across \textasciitilde1,500 document types and LLM verification, routing low-confidence pages to human review.}
+\nextentry{\textbf{Zapper Edge LLC} | Software Builder - 1 Intern}{May 2026 - Aug 2026}
+\bulletitem{Built the meeting assistant's FastAPI backend, Whisper speech-to-text integration and React dashboard, taking the application from prototype to a complete processing pipeline.}
+\nextentry{\textbf{BlankSage} | Software Engineer Intern}{May 2026 - Jun 2026}
+\bulletitem{Delivered a Go/React settings module and report-export engine for 100+ active users, cutting report-processing time by 60\%; fixed 15+ critical issues and improved GitHub Actions CI/CD.}
+\nextentry{\textbf{E Soft Technologies} | Software Development Intern}{Jun 2025 - Jul 2025}
+\bulletitem{Built Django and SQL hotel workflow automation with OpenCV, automating occupancy checks for 3 room categories.}
+
+\resumesection{SELECTED AI PROJECTS}
+\entry{\textbf{Kavach Safety Gateway for AI Agents} | Python, OpenAI Agents SDK, MCP}{HackIndia AgentVerse '26}
+\bulletitem{Co-built a gateway that checks agent tool calls against policy rules and an LLM reviewer, requests human approval for risky actions and records a tamper-evident audit log; React dashboard monitors runs and approvals.}
+\bulletitem{Wrote 51 evaluation scenarios, including 31 attacks across the OWASP Agentic Top 10. On a worst-case scripted agent, attack success fell from 100\% to 0\%, with no false positives and under 1 ms added per tool call.}
+\nextentry{\href{https://github.com/Hydra-Of-Malice/SketchUp-2022-ChatGPT-MCP}{\textbf{ChatGPT--SketchUp MCP Bridge}} | Model Context Protocol}{Open source}
+\bulletitem{Published an MCP bridge exposing 18 modeling tools to let ChatGPT inspect and edit an open SketchUp model; packaged a Windows tray app and installer with setup, tool-call examples and troubleshooting documentation.}
+\nextentry{\textbf{AI Teacher Multi-Document RAG Copilot} | LangChain, FAISS, MongoDB}{}
+\bulletitem{Built citation-grounded Q\&A with real-time Socket.IO chat; indexed 5+ document formats and improved retrieval accuracy by 35\% through chunking and retrieval tuning against a held-out query set.}
+\nextentry{\href{https://github.com/Hydra-Of-Malice/defect_forge}{\textbf{Defect Forge}} | Python, FastAPI, React}{Meta Global AI Developer Hackathon}
+\bulletitem{Built solo: generates pixel-labeled synthetic defects for about \$0.02 each, with 8 quality checks per sample and a call log recording model latency and cost.}
+\nextentry{\textbf{ORQUIS AI Executive Analytics} | Azure OpenAI, RAG, FastAPI, React}{In progress}
+\bulletitem{Building Excel/CSV analytics that grounds LLM output in 20+ computed KPIs per dataset, with prompt-injection screening.}
+
+\resumesection{EDUCATION}
+\entry{\textbf{Vellore Institute of Technology, Vellore}}{2023 - 2027}
+B.Tech, Computer Science and Engineering and Business Systems | \textbf{CGPA: 8.77/10}\par
+Coursework: Artificial Intelligence, Machine Learning, Data Structures and Algorithms, Database Systems
+\end{document}

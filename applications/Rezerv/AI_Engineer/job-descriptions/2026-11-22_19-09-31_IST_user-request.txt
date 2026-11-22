@@ -1,0 +1,9 @@
+User request recorded 2026-11-22T19:09:31+05:30. This is a processing timestamp, not the exact message receipt time.
+
+Original request text:
+[https://github.com/Hydra-Of-Malice/resume](https://github.com/Hydra-Of-Malice/resume) use this repo to understand how I write my repo and how we go through the repo. Also, now I am going to give you a company on which you will be working, on top of it, and then be making a personalized resume for that company with the highest CTS score. [https://www.rezerv.co/](https://www.rezerv.co/) I'll be applying for the AI engineer role, so go on top of it. Do every search you can, if it is possible, and find out how we should apply for it and what we should also mention in the email and everything like that. Make sure the resume is super strong, and on top of that, you also add my portfolio link and LinkedIn or things like that. See to it what should be given, and tell me.
+
+Follow-up:
+Also, make sure that once you work on this resume and make a specific resume for this role, then you should have that in the GitHub repo.
+
+Whitespace between linked URLs and prose is normalized; wording is unchanged. Original hiring evidence is preserved in the screenshot and separate visible-text transcription.
