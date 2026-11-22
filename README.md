@@ -8,6 +8,7 @@ Times use Asia/Kolkata (UTC+05:30). Timestamps are recorded processing times whe
 
 | Company | Latest user update recorded | Role / resume | Job description |
 | --- | --- | --- | --- |
+| [Swish](applications/Swish/README.md) | 2026-11-22 19:31:19 +05:30 | [Frontend and application workflow internship](applications/Swish/Frontend_Engineering_Intern/) | Supplied in-office internship post; AI Engineer positioning with React/workflow delivery |
 | [Rezerv](applications/Rezerv/README.md) | 2026-11-22 19:09:31 +05:30 | [AI Engineer](applications/Rezerv/AI_Engineer/) | Supplied recruiter screenshot and researched agentic AI role; Myanmar eligibility unconfirmed |
 | [Cisco](applications/Cisco/README.md) | 2026-11-22 15:19:39 +05:30 | [Software Engineer 2025113](applications/Cisco/Software_Engineer_2025113/) | Official frontend / UX role; supplied application link preserved |
 | [Commonwealth Bank of Australia (CBA)](applications/CBA/README.md) | 2026-11-20 03:17:26 +05:30 | [Campus graduate technology](applications/CBA/Campus_Graduate_Technology/) | Campus notice supplied; no specific JD |
@@ -58,3 +59,5 @@ Use Git history for revisions rather than filenames such as `final_v2`. Keep the
 The Cisco variant targets Software Engineer requisition 2025113 using the live official description, emphasizing React/JavaScript delivery, debugging, CI/CD and security/evaluation projects while retaining Zapper Edge AI and document-intelligence experience. It does not add unverified Figma skills or claim 2027 graduation eligibility.
 
 The Rezerv AI Engineer variant emphasizes production LLM delivery, MCP tools, agent safeguards, evaluation and grounded analytics. It includes the verified portfolio, LinkedIn and GitHub links, plus an email draft and sourced application guide. Myanmar location eligibility, the two-year requirement and production Node.js depth remain explicit gaps. The master remains unchanged.
+
+The Swish internship variant positions Aditya as an AI Engineer with React application and workflow delivery at Zapper Edge, supported by React/Go feature delivery at BlankSage. It targets the supplied frontend/app workflow internship without adding unverified React Native or native mobile experience. The user will upload it; files remain local.

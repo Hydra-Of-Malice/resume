@@ -1,0 +1,64 @@
+% Swish frontend internship variant. See tailoring-notes.md for factual basis.
+% XeLaTeX/LuaLaTeX source; build_resume.py generates the verified submission PDF.
+\documentclass[10pt]{article}
+\usepackage[a4paper,left=39.6bp,right=39.6bp,top=30bp,bottom=30bp]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\IfFontExistsTF{Carlito}{\setmainfont{Carlito}}{\setmainfont{TeX Gyre Heros}}}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Aditya Arnav Resume},pdfauthor={Aditya Arnav},pdfsubject={Swish Internship - React Applications and Workflow Automation}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedright
+\newcommand{\resumesection}[1]{\par\vspace{6bp}{\fontsize{10.56bp}{12.5bp}\selectfont\bfseries #1\par}\vspace{1bp}\hrule height .6bp\vspace{3bp}}
+\newcommand{\entry}[2]{\par #1\hfill #2\par}
+\newcommand{\nextentry}[2]{\par\vspace{2bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\begin{document}
+\fontsize{10bp}{12bp}\selectfont
+{\centering
+{\fontsize{19bp}{22bp}\selectfont\bfseries ADITYA ARNAV\par}
+\vspace{1bp}
+{\fontsize{10.8bp}{13bp}\selectfont\bfseries AI Engineer | React Applications and Workflow Automation\par}
+\vspace{2bp}
+{\fontsize{9bp}{11bp}\selectfont Bengaluru, India | +91-8102729084 | \href{mailto:mr.aditya30112003@gmail.com}{mr.aditya30112003@gmail.com}\par}
+{\fontsize{9bp}{11bp}\selectfont \href{https://www.adityaarnav.site/}{Portfolio: adityaarnav.site} | \href{https://www.linkedin.com/in/aditya-arnav-76a0222a1}{linkedin.com/in/aditya-arnav-76a0222a1} | \href{https://github.com/Hydra-Of-Malice}{GitHub: Hydra-Of-Malice}\par}}
+
+\resumesection{SUMMARY}
+AI Engineer at Zapper Edge with hands-on experience building React applications, API services and automated workflows. Built a meeting assistant's React dashboard and FastAPI processing pipeline, then engineered its production inference services. Delivered React/Go features for 100+ users at BlankSage. B.Tech student at VIT Vellore, graduating in 2027, with experience taking AI applications from prototype to working product.
+
+\resumesection{TECHNICAL SKILLS}
+\textbf{Frontend and Applications:} React, JavaScript, TypeScript, REST API integration, full-stack application development\par
+\textbf{Backend and Workflows:} Python, FastAPI, Go, Node.js, Django, Flask, SQL, PostgreSQL, Redis, MongoDB, microservices, asynchronous pipelines, workflow automation\par
+\textbf{AI and Product Delivery:} Azure OpenAI, Azure AI Foundry, LLMs, RAG, LangChain, OpenAI Agents SDK, MCP, Git, Docker, GitHub Actions, CI/CD, Azure, AWS, Agile
+
+\resumesection{EXPERIENCE}
+\entry{\textbf{Zapper Edge LLC} | Artificial Intelligence Engineer}{Sep 2026 - Present}
+\bulletitem{Architected a production meeting-intelligence application connecting automated Google Meet and Zoom sessions to transcription and LLM summarization; achieved 90\% bot-connection reliability using FastAPI, Faster-Whisper and Azure OpenAI/Azure AI Foundry.}
+\bulletitem{Redesigned its asynchronous processing workflow with Redis, PostgreSQL, Docker Compose and Nginx; reduced post-meeting processing overhead by 70\% and supported 10+ concurrent sessions with health checks and zero-downtime restarts.}
+\bulletitem{Led a client document-intelligence application combining OCR, classification across \textasciitilde1,500 document types and LLM verification, with low-confidence pages routed to human review.}
+\nextentry{\textbf{Zapper Edge LLC} | Software Builder - 1 Intern}{May 2026 - Aug 2026}
+\bulletitem{Built the meeting assistant's React dashboard, FastAPI backend and Whisper speech-to-text integration, taking the application from prototype to a complete processing pipeline.}
+\nextentry{\textbf{BlankSage} | Software Engineer Intern}{May 2026 - Jun 2026}
+\bulletitem{Shipped a user-settings module and report-export engine in React and Go for 100+ active users, reducing report-processing time by 60\%.}
+\bulletitem{Resolved 15+ critical issues and improved GitHub Actions CI/CD to support reliable application delivery.}
+\nextentry{\textbf{E Soft Technologies} | Software Development Intern}{Jun 2025 - Jul 2025}
+\bulletitem{Built a Django and SQL hotel workflow automation platform with OpenCV, automating occupancy checks for 3 room categories.}
+
+\resumesection{SELECTED APPLICATIONS AND WORKFLOWS}
+\entry{\href{https://github.com/Hydra-Of-Malice/defect_forge}{\textbf{Defect Forge}} | React, FastAPI, Python}{Meta Global AI Developer Hackathon}
+\bulletitem{Built a full-stack application solo that turns QA specifications into pixel-labeled synthetic defects for about \$0.02 each, with 8 quality checks per sample and a call log recording model latency and cost.}
+\nextentry{\textbf{Kavach Safety Gateway for AI Agents} | React, FastAPI, Python, MCP}{HackIndia AgentVerse '26}
+\bulletitem{Co-built an agent workflow with policy checks, LLM review, human approval for risky tool calls and a tamper-evident audit log, with a React dashboard for monitoring runs and approvals.}
+\bulletitem{Wrote an evaluation pipeline covering 51 scenarios, including 31 adversarial cases across the OWASP Agentic Top 10.}
+\nextentry{\textbf{ORQUIS AI Executive Analytics} | React, FastAPI, Azure OpenAI}{In progress}
+\bulletitem{Building an Excel/CSV analytics application that grounds LLM output in 20+ computed KPIs per dataset, with prompt-injection screening.}
+\nextentry{\textbf{Biomedical Waste Detection} | React, Flask, PyTorch, OpenCV}{}
+\bulletitem{Built a full-stack detection application with a model trained on 1,500+ annotated images, achieving 91\% accuracy across 4 categories and serving inference through an API in under 200 ms.}
+
+\resumesection{EDUCATION}
+\entry{\textbf{Vellore Institute of Technology, Vellore}}{2023 - 2027}
+B.Tech, Computer Science and Engineering and Business Systems | \textbf{CGPA: 8.77/10}\par
+Coursework: Data Structures and Algorithms, Database Systems, Artificial Intelligence, Machine Learning
+\end{document}

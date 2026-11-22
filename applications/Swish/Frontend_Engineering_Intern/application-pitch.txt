@@ -1,0 +1,18 @@
+Hi Hardik,
+
+I'm Aditya, an AI Engineer at Zapper Edge and a B.Tech student at VIT Vellore, graduating in 2027. Your frontend internship caught my attention because my AI work includes building the applications and workflows around the models.
+
+At Zapper Edge, I built a meeting assistant's React dashboard, FastAPI backend and speech-to-text pipeline. I then worked on its production services, redesigning the asynchronous workflow to reduce post-meeting processing overhead by 70% and support 10+ concurrent sessions. I also led a document-intelligence application that combines OCR, classification and LLM verification with human review.
+
+At BlankSage, I shipped React/Go settings and report-export features for 100+ active users. I would bring that hands-on application experience, workflow automation and production debugging to Swish's frontend team, with an interest in contributing across the frontend stack.
+
+Portfolio: https://www.adityaarnav.site/
+GitHub: https://github.com/Hydra-Of-Malice
+LinkedIn: https://www.linkedin.com/in/aditya-arnav-76a0222a1
+
+Best,
+Aditya Arnav
+
+--- SHORT FORM VERSION ---
+
+I'm an AI Engineer at Zapper Edge who builds React applications and automated workflows around production AI systems. I built a meeting assistant's React dashboard and FastAPI pipeline, then redesigned its async workflow to cut processing overhead by 70% and support 10+ concurrent sessions. I also shipped React/Go features for 100+ users at BlankSage. I'd bring that application-building experience and workflow focus to Swish's frontend team.
