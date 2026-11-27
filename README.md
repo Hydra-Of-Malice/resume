@@ -8,6 +8,7 @@ Times use Asia/Kolkata (UTC+05:30). Timestamps are recorded processing times whe
 
 | Company | Latest user update recorded | Role / resume | Job description |
 | --- | --- | --- | --- |
+| [Western Digital](applications/Western_Digital/README.md) | 2026-11-28 02:26:25 +05:30 | [PMO Intern](applications/Western_Digital/PMO_Intern/) | Researched IT PMO Project Analyst Intern role; third-party listing expired, official route preserved |
 | [Rox](applications/Rox/README.md) | 2026-11-22 20:40:24 +05:30 | [Backend Platform Engineer BLR](applications/Rox/Backend_Platform_Engineer_BLR/) | Broad hiring screenshot; researched Bengaluru role, application plan and outreach drafts |
 | [Swish](applications/Swish/README.md) | 2026-11-22 20:16:36 +05:30 | [Frontend and application workflow internship](applications/Swish/Frontend_Engineering_Intern/) | Supplied internship post; formatting revised with section dividers and aligned dates |
 | [Rezerv](applications/Rezerv/README.md) | 2026-11-22 19:09:31 +05:30 | [AI Engineer](applications/Rezerv/AI_Engineer/) | Supplied recruiter screenshot and researched agentic AI role; Myanmar eligibility unconfirmed |
@@ -64,3 +65,5 @@ The Rezerv AI Engineer variant emphasizes production LLM delivery, MCP tools, ag
 The Swish internship variant positions Aditya as an AI Engineer with React application and workflow delivery at Zapper Edge, supported by React/Go feature delivery at BlankSage. It targets the supplied frontend/app workflow internship without adding unverified React Native or native mobile experience. The user will upload it; files remain local.
 
 The Rox variant targets the researched Bengaluru Backend Platform Engineer opening, emphasizing production LLM/inference services, data processing, agent controls and retrieval evaluation. It includes company research, official application links and unsent outreach drafts, while preserving 2027 graduation and unverified availability. The corrected LaTeX layout is compiled directly; files remain local.
+
+The Western Digital variant targets the researched IT PMO Project Analyst Intern role in Bengaluru. It reframes the candidate's technical delivery around workflow coordination, documentation, issue triage, quality gates, reporting and operational handoff without inventing PMO tenure or unverified MS Project, Visio, Smartsheet or Jira experience. The indexed listing was expired when checked; the official application route and student eligibility guidance are preserved.

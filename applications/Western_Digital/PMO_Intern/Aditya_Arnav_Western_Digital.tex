@@ -1,0 +1,63 @@
+% Western Digital PMO Intern variant. Facts and limits: tailoring-notes.md.
+% Build through build_resume.py with XeLaTeX to preserve the verified layout.
+\documentclass[10pt]{article}
+\usepackage[a4paper,left=39.6bp,right=39.6bp,top=30bp,bottom=30bp]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\IfFontExistsTF{Carlito}{\setmainfont{Carlito}}{\setmainfont{TeX Gyre Heros}}}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Aditya Arnav Resume},pdfauthor={Aditya Arnav},pdfsubject={Western Digital IT PMO Project Analyst Intern}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedright
+\newcommand{\resumesection}[1]{\par\vspace{8bp}{\fontsize{11bp}{13bp}\selectfont\bfseries #1\par}\vspace{3bp}\hrule height .65bp\vspace{4bp}}
+\newcommand{\entry}[2]{\par #1\hfill #2\par}
+\newcommand{\nextentry}[2]{\par\vspace{5bp}\entry{#1}{#2}}
+\newcommand{\bulletitem}[1]{\par\vspace{.6bp}\begingroup\hangindent=11.52bp\hangafter=1\noindent\makebox[11.52bp][l]{\textbullet}#1\par\endgroup}
+\begin{document}
+\fontsize{10.25bp}{12.4bp}\selectfont
+{\centering
+{\fontsize{19bp}{22bp}\selectfont\bfseries ADITYA ARNAV\par}
+\vspace{1bp}
+{\fontsize{10.8bp}{13bp}\selectfont\bfseries AI Engineer | Project Delivery and Technical Operations\par}
+\vspace{2bp}
+{\fontsize{9bp}{11bp}\selectfont Bengaluru, India | +91-8102729084 | \href{mailto:mr.aditya30112003@gmail.com}{mr.aditya30112003@gmail.com}\par}
+{\fontsize{9bp}{11bp}\selectfont \href{https://www.adityaarnav.site/}{Portfolio: adityaarnav.site} | \href{https://www.linkedin.com/in/aditya-arnav-76a0222a1}{linkedin.com/in/aditya-arnav-76a0222a1} | \href{https://github.com/Hydra-Of-Malice}{GitHub: Hydra-Of-Malice}\par}}
+
+\resumesection{SUMMARY}
+B.Tech student at VIT Vellore and AI Engineer at Zapper Edge with experience taking technical projects from requirements and workflow design through implementation, validation, documentation and operational handoff. Built and maintained multi-service AI applications, tracked measurable delivery outcomes, triaged production issues and improved CI/CD. Strong fit for PMO work that connects project information, technical teams, milestones, documentation and stakeholder-ready reporting. Graduating in 2027 and based in Bengaluru.
+
+\resumesection{PROJECT DELIVERY SKILLS}
+\textbf{Project and process:} Agile, SDLC, workflow design, technical documentation, issue triage, quality gates, human-in-the-loop review, cross-functional collaboration\par
+\textbf{Reporting and data:} Excel/CSV analysis, SQL, KPI definition, data validation, retrieval evaluation, model latency and cost tracking\par
+\textbf{Technical delivery:} Python, FastAPI, Go, Django, React, REST APIs, PostgreSQL, Redis, MongoDB, Docker, Git, GitHub Actions, CI/CD, Azure, AWS
+
+\resumesection{EXPERIENCE}
+\entry{\textbf{Zapper Edge LLC} | Artificial Intelligence Engineer}{Sep 2026 - Present}
+\bulletitem{Owned end-to-end delivery of a production meeting-intelligence platform across automated Google Meet and Zoom sessions, FastAPI services, speech-to-text, LLM summarization and operational handoff; reached 90\% bot-connection reliability.}
+\bulletitem{Mapped and improved the asynchronous processing workflow with Redis, PostgreSQL, Docker Compose and Nginx; reduced post-meeting processing overhead by 70\% and supported 10+ concurrent sessions with health checks and zero-downtime restarts.}
+\bulletitem{Led delivery of a client document-intelligence workflow combining OCR, rule-based classification across \textasciitilde1,500 document types and LLM verification, with low-confidence pages routed to human review.}
+\nextentry{\textbf{Zapper Edge LLC} | Software Builder - 1 Intern}{May 2026 - Aug 2026}
+\bulletitem{Built the meeting assistant's FastAPI backend, Whisper speech-to-text integration and React dashboard, taking the work from prototype through a complete processing pipeline.}
+\nextentry{\textbf{BlankSage} | Software Engineer Intern}{May 2026 - Jun 2026}
+\bulletitem{Delivered a Go/React user-settings module and report-export engine for 100+ active users, reducing report-processing time by 60\%.}
+\bulletitem{Resolved 15+ critical issues and improved GitHub Actions CI/CD, strengthening release reliability and delivery visibility.}
+\nextentry{\textbf{E Soft Technologies} | Software Development Intern}{Jun 2025 - Jul 2025}
+\bulletitem{Built Django and SQL hotel workflow automation with OpenCV, automating occupancy checks for 3 room categories.}
+
+\resumesection{PROJECT DELIVERY HIGHLIGHTS}
+\entry{\textbf{ORQUIS AI Executive Analytics} | Excel/CSV, Azure OpenAI, FastAPI, React}{In progress}
+\bulletitem{Building an analytics workflow that transforms Excel/CSV data into dashboards and LLM-supported insights grounded in 20+ computed KPIs per dataset, with prompt-injection screening.}
+\nextentry{\textbf{Defect Forge} | Python, FastAPI, React}{Meta Global AI Developer Hackathon}
+\bulletitem{Built a full-stack quality-testing application solo; each generated sample passes 8 quality checks, while a call log records model latency and cost at about \$0.02 per pixel-labeled defect.}
+\nextentry{\textbf{Kavach Safety Gateway for AI Agents} | Python, FastAPI, MCP, React}{HackIndia AgentVerse '26}
+\bulletitem{Co-built a controlled workflow with policy checks, human approval for risky tool calls and a tamper-evident audit log; wrote 51 evaluation scenarios, including 31 adversarial cases.}
+\nextentry{\textbf{AI Teacher Multi-Document RAG Copilot} | Python, LangChain, FAISS}{}
+\bulletitem{Indexed 5+ document formats into one retrieval workflow and improved accuracy by 35\% through chunking and retrieval tuning against a held-out query set.}
+
+\resumesection{EDUCATION}
+\entry{\textbf{Vellore Institute of Technology, Vellore}}{2023 - 2027}
+B.Tech, Computer Science and Engineering and Business Systems | \textbf{CGPA: 8.77/10}\par
+Coursework: Data Structures and Algorithms, Database Systems, Artificial Intelligence, Machine Learning
+\end{document}
